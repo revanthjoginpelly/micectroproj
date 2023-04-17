@@ -1,10 +1,10 @@
 # Internship macro project
 
-The internship assignment is to create a form for accceptind data from user and validatinng the user input to check that there is no emplty or blank data ,and  buttons such as  save reset,update wichh are disable at start  and store it into the JSONPOWERDB.
+The internship assignment is to create a form for acccepting  data from user and validating the user input to check that there is no empty feilds or blank data ,and  buttons such as  save reset,update wichh are disable at start  and store it into the JSONPOWERDB.
 
 ###Description:
 
-   - If the primary key of that record is presnent in database it populates the  feilds with the saved information and enable only updae and reset
+   - If the primary key of that record is presnent in database it populates the  feilds with the saved information and enable only updae and reset.
     
   * If the id is not present in database it enable save and reset button
   
@@ -18,7 +18,7 @@ The internship assignment is to create a form for accceptind data from user and 
    
   1 .Simplest way to retrieve data in a JSON format.
   2 .Schema-free, Simple to use, Nimble and In-Memory database.
-  3   .It is built on top of one of the fastest and real-time data indexing engine - PowerIndeX.
+  3  .It is built on top of one of the fastest and real-time data indexing engine - PowerIndeX.
   4 .It helps developers in faster coding, in-turn reduces development cost.
 
   ### Releasehistory:
@@ -30,6 +30,7 @@ The internship assignment is to create a form for accceptind data from user and 
  #### Form 
  
  ![image](https://user-images.githubusercontent.com/115863529/232519349-cb7e62a0-aef7-4e34-9a04-3de692310bd3.png)
+ 
 #### Entering Id
 
   1 .If Id presents it populates the data and enables the update and reset button
