@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Shipment</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Shipment form</h2>
+      <form id="empForm" method="post">
+        <div class="form-group">
+          <span
+            ><label for="empId">Shipment Id:</label>
+            <label id="empIdMsg"> </label
+          ></span>
+          <input
+            type="text"
+            class="form-control"
+            name="empId"
+            id="empId"
+            placeholder="Enter  Shipment Id"
+            onchange="GetId()"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="empName">Description:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="empName"
+            placeholder="Enter Description"
+            name="empName"
+          />
+        </div>
+        <div class="form-group">
+          <label for="empEmail">Source :</label>
+          <input
+            type="text"
+            class="form-control"
+            id="empClass"
+            placeholder="Enter Source"
+            name="empEmail"
+          />
+        </div>
+        <div class="form-group">
+          <label for="empEmail">Destination :</label>
+          <input
+            type="text"
+            class="form-control"
+            id="empDob"
+            placeholder="Enter Destination"
+            name="empEmail"
+          />
+        </div>
+        <div class="form-group">
+          <label for="empEmail">Shipping Date:</label>
+          <input
+            type="date"
+            class="form-control"
+            id="empAdress"
+            placeholder="Enter Shipment Date"
+            name="empEmail"
+          />
+        </div>
+        <div class="form-group">
+          <label for="empEmail">Expected Delivery Date:</label>
+          <input
+            type="date"
+            class="form-control"
+            id="empEnrollment"
+            placeholder="Enter Expected date"
+            name="empEmail"
+          />
+        </div>
+        <input
+          type="button"
+          class="btn btn-primary"
+          id="empSave"
+          value="Save"
+          onclick="saveEmployee();"
+          disabled
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          id="empChange"
+          value="Update"
+          onclick="ChangeEmployee();"
+          disabled
+        />
+        <input
+          type="button"
+          class="btn btn-primary"
+          id="empReset"
+          value="Reset"
+          onclick="Reset();"
+          disabled
+        />
+      </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+  </body>
+</html>
